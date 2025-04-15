@@ -1,0 +1,28 @@
+{
+  "name": "mcp-image-generator",
+  "version": "1.0.0",
+  "description": "一个用于生成图片的MCP服务器",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "image",
+    "generator",
+    "claude"
+  ],
+  "author": "qing-turnaround",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "express": "^4.18.2",
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
